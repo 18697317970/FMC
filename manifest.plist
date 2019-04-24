@@ -1,59 +1,49 @@
-    <?xml version="1.0" encoding="UTF-8"?>
-    <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-    <!--
-     GlenBit.plist
-     fenfa
-     
-     Created by Lee on 2019/4/24.
-     Copyright (c) 2019 河南贝利塔网络科技有限公司. All rights reserved.
-     -->
-    <plist version="1.0">
-        <dict>
-            <key>items</key>
-            <array>
-                <dict>
-                    <key>assets</key>
-                    <array>
-                        <dict>
-                            <key>kind</key>
-                            <string>software-package</string>
-                            <key>url</key>
-                            <string>http://pkg.hiapp.fun/ipa/7229ebe390114a5c9efb6a7eb632681f.ipa?auth_key=1556071045-0-0-d061169ea2961941921d5cd28903b48e
-                            </string>
-                        </dict>
-                        <dict>
-                            <key>kind</key>
-                            <string>display-image</string>
-                            <key>needs-shine</key>
-                            <true/>
-                            <key>url</key>
-                            <string>http://public.hiapp.net/icon/269f9e126e304dc8ae5c17e2ca280292.png
-                            </string>
-                        </dict>
-                        <dict>
-                            <key>kind</key>
-                            <string>full-size-image</string>
-                            <key>needs-shine</key>
-                            <true/>
-                            <key>url</key>
-                            <string>http://public.hiapp.net/icon/269f9e126e304dc8ae5c17e2ca280292.png
-                            </string>
-                        </dict>
-                    </array>
-                    <key>metadata</key>
-                    <dict>
-                        <key>bundle-identifier</key>
-                        <string>com.beta.Glenbit.GlenBit</string>
-                        <key>bundle-version</key>
-                        <string>1.1.14</string>
-                        <key>kind</key>
-                        <string>software</string>
-                        <key>subtitle</key>
-                        <string>GlenBit</string>
-                        <key>title</key>
-                        <string>GlenBit</string>
-                    </dict>
-                </dict>
-            </array>
-        </dict>
-    </plist>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>assets</key>
+			<array>
+				<dict>
+					<key>kind</key>
+					<string>software-package</string>
+					<key>url</key>
+					<string>https://raw.githubusercontent.com/18697317970/FMC/master/GlenBit.ipa</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>display-image</string>
+					<key>needs-shine</key>
+					<true/>
+					<key>url</key>
+					<string>https://raw.githubusercontent.com/18697317970/FMC/master/58*58.png</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>full-size-image</string>
+					<key>needs-shine</key>
+					<true/>
+					<key>url</key>
+					<string>https://raw.githubusercontent.com/18697317970/FMC/master/512*512.png</string>
+				</dict>
+			</array>
+			<key>metadata</key>
+			<dict>
+				<key>subtitle</key>
+				<string>GlenBit</string>
+				<key>title</key>
+				<string>GlenBit</string>
+				<key>bundle-version</key>
+				<string>1.1.14</string>
+				<key>kind</key>
+				<string>software</string>
+				<key>bundle-identifier</key>
+				<string>com.beta.Glenbit.GlenBit</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
